@@ -1,18 +1,31 @@
 /* Создание переменных */
-let money = '$';
+let money = 600;
+console.log(typeof money);
 
-let income = '$';
+let income = 'Фриланс';
+console.log(typeof income);
 
-let addExpenses = '$';
+let addExpenses = 'Мобильный, Еда, Девушка';
+console.log(addExpenses.length);
+console.log(addExpenses.toLowerCase());
+console.log(addExpenses.split(', '));
 
-let deposit = '$';
+let deposit = true;
+console.log(typeof deposit);
 
-let misson = '600';
+let mission = 800;
 
-let period = 'month';
+let period = 12;
+console.log("Период равен " + period + " месяцев " + "Цель заработать " + mission + " Долларов сша $");
+/* Переменная которая высчитвает бюджет за день */
+let budgetDay = (money/30);
+console.log(budgetDay);
 
-/* Вывод модального окна alert */
-alert('Привет мир!');
+/* Усложненое дз не готово так что сюда не смотреть */
+/* Усложнённое задание */
+let num = 266219;
 
-/* Вывод в консоль */
-console.log('Я вывел сообщение в консоль');
+let numString = num.toString();
+console.log(numString);
+let numArray = numString.split('');
+console.log(numArray);
